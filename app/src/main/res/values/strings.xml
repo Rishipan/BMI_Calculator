@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BMI Calculater</string>
+    <string name="edtWt">Weight</string>
+    <string name="edtFt">Feet</string>
+    <string name="edtIn">Inch</string>
+    <string name="btn">Calculate</string>
+    <string name="res">Result</string>
+</resources>

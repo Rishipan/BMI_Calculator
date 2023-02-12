@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llMain"
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtWt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/edtWt"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#08E28B" />
+
+    <EditText
+        android:id="@+id/edtFt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtFt"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="Autofill"
+        android:textColorHint="#08E28B"/>
+
+    <EditText
+        android:id="@+id/edtIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtIn"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="Autofill"
+        android:textColorHint="#08E28B"/>
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:text="@string/btn" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/res"
+        android:textColorHint="#050505"/>
+
+</LinearLayout>
